@@ -7,6 +7,7 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-componente.component';
+import { ListasComponent } from './listas/listas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-comp
     PrimeiroComponenteComponent,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    TerceiroComponenteComponent
+    TerceiroComponenteComponent,
+    ListasComponent
  
   ],
   imports: [
