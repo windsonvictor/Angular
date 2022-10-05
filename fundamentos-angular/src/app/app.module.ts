@@ -8,6 +8,9 @@ import { SegundoComponenteComponent } from './segundo-componente/segundo-compone
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-componente.component';
 import { ListasComponent } from './listas/listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ListasComponent } from './listas/listas.component';
     SegundoComponenteComponent,
     MultiplicaPorPipe,
     TerceiroComponenteComponent,
-    ListasComponent
+    ListasComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent
  
   ],
   imports: [
