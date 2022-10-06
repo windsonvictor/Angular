@@ -11,6 +11,7 @@ import { ListasComponent } from './listas/listas.component';
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     ListasComponent,
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
-    ComponenteFilhoComponent
+    ComponenteFilhoComponent,
+    ExemploServicoComponent
  
   ],
   imports: [
