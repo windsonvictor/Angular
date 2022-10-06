@@ -12,6 +12,8 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.component';
+import { FormsModule } from '@angular/forms';
+import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,18 @@ import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.compo
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
-    ExemploServicoComponent
+    ExemploServicoComponent,
+    ExemploServico2Component
  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
